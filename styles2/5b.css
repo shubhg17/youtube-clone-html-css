@@ -1,0 +1,92 @@
+p {
+    font-family:Arial;
+   }
+
+   .new {
+      color:rgb(244, 163, 13);
+      text-align:center;
+      margin-bottom:5px;
+   }
+
+   .macbook {
+      font-size:25px;
+      font-weight:bold;
+      text-align:center;
+      margin-top:0px;
+     color:rgb(34, 34, 34);
+     margin-bottom:5px;
+   }
+
+   .prices {
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(34, 34, 34);
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:8px;
+   }
+
+   .rate {
+    text-align:center;
+    color:rgb(34, 34, 34);
+    margin-top:0px;
+   }
+
+   .buy {
+    background-color:rgb(0 , 113 ,227);
+    color:white;
+    padding-top:7px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:7px;
+    border-radius:30px;
+    text-align:center;
+    margin-bottom:30px;
+   } 
+
+   .currency {
+      font-size:35px;
+      margin-bottom:8px;
+   }
+
+   .percentage {
+     color:green;
+     margin-top:0px;
+     margin-bottom:8px;
+   }
+
+   .after-hours {
+     color:grey;
+     margin-top:0px;
+   }
+
+   .span-red {
+    color:rgb(216, 39, 39);
+   }
+
+   .span-usd {
+      font-size:20px;
+      color:grey;
+   }
+
+   .free-code {
+     font-size:20px;
+     margin-bottom:5px;
+   }
+
+   .span-free {
+     color:grey;
+   }
+
+   .span-free2 {
+      font-weight:bold;
+   }
+
+   .web-dev {
+    font-size:23px;
+    margin-top:0px;
+   }
+
+   .span-chp {
+     color:rgb(62, 181, 236);
+   }

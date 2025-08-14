@@ -1,0 +1,126 @@
+
+    .thumbnail {
+      width:100%;
+      margin-bottom:5px;
+    }
+
+    .video-info-grid {
+      display:grid;
+      grid-template-columns:50px 1fr;
+    }
+
+    .pfp {
+      width:70%;
+      border-radius:50px;
+    }
+
+    .talk-text {
+      margin-top:4px;
+      font-weight:500;
+      font-size:14px;
+      width:240px;
+      line-height:23px;
+    }
+
+    .author {
+      color:grey;
+      margin-bottom:5px;
+      font-size:12px;
+    }
+
+    .video-stats {
+      color:rgb(69, 67, 67);
+      margin-top:0px;
+      font-size:13px;
+    }
+
+
+
+    .video-grid {
+      margin-top:10px;
+      display:grid;
+      grid-template-columns:1fr 1fr 1fr;
+      column-gap:20px;
+      row-gap:40px;
+    }
+
+    @media (max-width:750px) {
+       .video-grid {
+        grid-template-columns:1fr 1fr;
+       }
+    } 
+
+    @media (min-width:751px) and (max-width:999px) {
+       .video-grid {
+        grid-template-columns:1fr 1fr 1fr;
+       }
+    }
+
+    @media (min-width:1000px) {
+       .video-grid {
+        grid-template-columns:1fr 1fr 1fr 1fr;
+       }
+    }
+
+    .thumbnail-row {
+       position:relative;
+    }
+
+    .video-time {
+       background-color:rgb(16, 16, 16);
+       color:white;
+       position:absolute;
+       right:5px;
+       bottom:10px;
+       font-size:16px;
+       font-weight:bold;
+       font-family:Roboto , Arial;
+       padding:4px;
+       border-radius:2px;
+    }
+
+    .channel-picture {
+       position:relative;
+    }
+
+    .channel-picture .channeltooltip {
+       background-color:white;
+       position:absolute;
+       z-index:300;
+       top:55px;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       box-shadow:5px 5px 10px rgba(0,0,0,0.5);
+       border-radius:5px;
+       padding-top:5px;
+       padding-left:5px;
+       padding-right:5px;
+       padding-bottom:5px;
+       opacity:0;
+       transition:opacity 0.15s;
+       pointer-events:none;
+    }
+
+    .channel-picture:hover .channeltooltip {
+       opacity:1;
+    }
+
+    .channel-tooltip-name {
+      font-weight:bold;
+      width:200px;
+      font-size:16px;
+      font-family:Roboto,Arial;
+      margin-bottom:4px;
+    }
+
+    .channel-tooltip-stats {
+       font-family:Roboto,Arial;
+       color:rgb(96,96,96);
+       font-size:14px;
+    }
+   
+    .video-title-link {
+      text-decoration:none;
+      color:black;
+    }

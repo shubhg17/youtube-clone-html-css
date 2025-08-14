@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>postion practice again</title>
+    <style>
+       .xbutton {
+        background-color:black;
+        color:white;
+        border:none;
+        width:30px;
+        height:30px;
+        border-radius:15px;
+       }
+
+
+       .timestamp {
+        background-color:black;
+        color:white;
+        position:fixed;
+        right:15px;
+        bottom:15px;
+       }
+
+       .off {
+         background-color:black;
+         color:white;
+         font-family:Arial;
+         position:absolute;
+         top:10px;
+         right:50px;
+         padding-left:10px;
+         padding-right:10px;
+         padding-top:8px;
+         padding-bottom:8px;
+       }
+
+       .img {
+        width:300px;
+        height:300px;
+        object-fit:contain;
+       }
+
+       .add-button {
+         color:black;
+         background-color:rgb(230, 227, 227);
+         padding-top:5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border-style:solid;
+         border-width:1px;
+         position:absolute;
+         right:110px;
+         bottom:30px;
+       }
+
+    </style>
+  </head>
+  <body style="
+    height:3000px;
+  ">
+    <div style="
+       position:absolute;
+       top:5px;
+       right:5px;
+    ">
+      <button class="xbutton">X</button>
+    </div>
+
+     <div style="
+       background-color:grey;
+       position:fixed;
+       right:10px;
+       bottom:10px;
+       width:320px;
+       height:180px;
+     ">
+
+      <div style="
+       position:absolute;
+       top:-5px;
+       left:-5px;
+    ">
+      <button class="xbutton">X</button>
+      <div class="timestamp">0:29</div>
+    </div>
+      
+     </div>
+    
+     <div style="
+       position:relative;
+       display:inline-block;
+     ">
+         <img class="img" src="images.jpg"> 
+         <div class="off">20% OFF</div>
+     </div>
+
+
+     <div style="
+       position:relative;
+       display:inline-block;
+     ">
+         <img class="img" src="images.jpg"> 
+         <div class="off">20% OFF</div>
+    <div style="
+     position:absolute;
+     background-color:rgba(255, 251, 251, 0.8);
+     bottom:0px;
+     left:0px;
+     right:0px;
+     height:80px;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+
+    ">
+      <button class="add-button">Add to Cart</button>
+    </div>
+    
+     </div>
+     
+     
+
+  </body>
+</html>
