@@ -35,7 +35,7 @@ This project was created to practice **responsive layouts, Flexbox, and CSS Grid
    git clone https://github.com/shubhg17/youtube-clone-html-css.git
    ```
    
-2.Navigate to the project folder:
+2. Navigate to the project folder:
    ```bash
    cd youtube-clone-html-css
    ```
