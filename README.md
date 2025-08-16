@@ -35,10 +35,11 @@ This project was created to practice **responsive layouts, Flexbox, and CSS Grid
    git clone https://github.com/shubhg17/youtube-clone-html-css.git
    
 2.Navigate to the project folder:
+   ```bash
+   cd youtube-clone-html-css
+   ```
 
-cd youtube-clone-html-css
-
-3.Open youtube.html in your browser or run with Live Server in VS Code.
+3.Open **youtube.html** in your browser or run with Live Server in VS Code.
 
 ## 📸 Screenshots
 
